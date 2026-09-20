@@ -1,28 +1,25 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
-
-# Node modules and dependency files
+# Node
 /node_modules/
-/package-lock.json
-/yarn.lock
 
-# Environment files
+# Next.js
+/.next/
+/out/
+
+# Generated at build time (see scripts/generate-manifest.mjs)
+/public/pics/
+/data/manifest.generated.json
+
+# Env
 /.env
+/.env.local
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
-
-# TypeScript cache
+# TypeScript
 *.tsbuildinfo
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# OS
+.DS_Store
